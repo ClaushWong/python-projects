@@ -1,0 +1,125 @@
+P & C Exercise
+source : https://www.indiabix.com/aptitude/permutation-and-combination/
+
+1. 7 men , 6 women
+   5 ppl
+
+   3 men
+
+( 3 men , 2 women )
+( 4 men , 1 woman )
+( 5 men )
+
+( 7C3 * 6C2 ) + ( 7C4 * 6C1[6] ) + ( 7C5 )
+= ( 35*15 ) + ( 35*6 ) + 21
+= 525 + 210 + 21
+= 756
+
+D
+
+
+2. "LEADING"
+   * Vowel always comes together
+
+**Letter = "L","E","A","D","I","N","G"
+**Vowel = "E","A","I"
+
+V ~ 3P3
+  ~ 6
+L ~ 5P5
+  ~ 120
+
+V * L = 6 * 120 = 720
+
+C
+
+3. "CORPORATION"
+   * Vowel always comes together
+
+**No. of Rest Letter = 6 ( 2-R , 1-C , P-1 , T-1 , N-1)
+**No. of Vowel = 5 ( 3-O , 1-A , 1-I)
+
+V ~ 5!/3! ~ 20
+L ~ 7!/2! ~ 2520
+
+V * L = 2520 * 20 = 50400
+
+D
+
+
+4. 7 c , 4 v
+   3 c, 2 v
+
+7C3 ~ 35
+4C2 ~ 6
+
+35 * 6 = 210
+5P5 = 120
+
+210 * 120 = 25200
+
+C
+
+5. "LEADER"
+n = 6
+r = 6
+6! / 2! = 720 / 2
+	= 360
+
+C
+
+6. 6b , 4g
+   4 ppl
+   1b (m)
+
+(1b,3g) , (2b,2g) , (3b,1g) , (4b)
+= (6C1 * 4C3) + (6C2 * 4C2 ) + (6C3 * 4C1 ) + 6C4
+= 24 + 90 + 80 + 15
+= 209
+
+D
+
+7. [2,3,5,6,7,9]
+   n = 6
+   r = 3
+   * Divisible by 5
+
+   [x,y,5]
+   n = 5
+   r = 2
+
+5P2 = 20
+
+D
+
+8. 8m , 10w
+   5m , 6w
+
+8C5 * 10C6
+= 56 * 210
+= 11760
+
+C
+
+
+9. 2w , 3b , 4r
+   6nb , 3b
+   [nb,nb,b] = 6C2 * 3C1 = 45
+   [nb,b,b] = 6C1 * 3C2 = 18
+   [b,b,b] = 3C3 = 1
+   45 + 18 + 1 = 64
+
+C
+
+
+10. "DETAIL"
+    *Vowel at odd position
+    [V,C,V,C,V,C]
+    V = 3
+    C = 3
+
+    3P1 * 3P1 * 2P1 * 2P1 * 1P1 * 1P1   
+   = 3 * 3 * 2 * 2
+   = 36
+
+c
