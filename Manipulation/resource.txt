@@ -1,0 +1,14 @@
+log=0
+pebble=0
+plank=0
+stick=0
+cobblestone=0
+iron_ore=0
+gold_ore=0
+iron_ingot=0
+gold_ingot=0
+furnance=False
+wooden_axe=False
+wooden_pick=False
+stone_axe=False
+stone_pick=False
